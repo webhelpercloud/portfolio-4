@@ -59,6 +59,10 @@
   background: #4070f4;
 }
 
+body{
+	background: #fff;
+}
+
 nav {
   position: fixed;
   width: 100%;
