@@ -5,10 +5,10 @@ let val;
 window.onscroll = function () {
     if (document.documentElement.scrollTop > 20) {
         nav.classList.add("sticky");
-        scrollBtn.style.display = "block";
+        scrollBtn.style.cssText = "bottom: 20px;right: 20px;";
     } else {
         nav.classList.remove("sticky");
-        scrollBtn.style.display = "none";
+        scrollBtn.style.cssText = "bottom: -60px;right: -60px;";
     }
 };
 

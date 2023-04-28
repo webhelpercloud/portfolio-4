@@ -889,15 +889,16 @@ footer .text span a:hover {
 /* Scroll TO Top Button CSS */
 .scroll-button a {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: -60px;
+  right: -60px;
   color: #fff;
-  background: #00030c;
+  background: var(--main-color);
+  border: .3vw solid #fff;
   padding: 7px 12px;
   font-size: 18px;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.15);
-  display: none;
+  /* box-shadow: rgba(0, 0, 0, 0.15); */
+  transition: .6s;
 }
 
 /* Responsive media queries */
